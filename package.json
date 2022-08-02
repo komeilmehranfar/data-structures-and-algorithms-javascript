@@ -3,10 +3,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
+  "files": ["dist", "src"],
   "engines": {
     "node": ">=10"
   },
@@ -31,7 +28,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "js-data-structure",
+  "name": "data_structures_and_algorithms_javascript",
   "author": "komeilmehranfar",
   "module": "dist/js-data-structure.esm.js",
   "size-limit": [
