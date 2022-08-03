@@ -1,15 +1,8 @@
-# Import
-
-```js
-
-// import 
-import { List } from "data_structures_and_algorithms_javascript"
-
-```
-
 # List
 
 ```js
+
+  import { List } from "data_structures_and_algorithms_javascript"
 
   const moviesList = new List();
   moviesList.append('Interstellar');
@@ -31,6 +24,8 @@ import { List } from "data_structures_and_algorithms_javascript"
 
 ```js
 
+  import { Stack } from "data_structures_and_algorithms_javascript"
+
   const tasksStack = new Stack(); // []
   tasksStack.push('To Do 1'); // ['To Do 1']
   tasksStack.push('To Do 2'); // ['To Do 1', 'To Do 2']
@@ -46,6 +41,8 @@ import { List } from "data_structures_and_algorithms_javascript"
 # Queue
 
 ```js
+
+  import { Queue } from "data_structures_and_algorithms_javascript"
 
   const people = new Queue(); // []
   people.enqueue('Person 1'); // ['Person 1']
