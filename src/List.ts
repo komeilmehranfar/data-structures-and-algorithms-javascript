@@ -1,7 +1,7 @@
 export class List {
   listSize: number;
   position: number;
-  dataStore: number[];
+  dataStore: any[];
   length: () => number;
   clear: () => void;
   find: (element: any) => number;

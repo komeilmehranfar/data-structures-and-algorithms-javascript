@@ -57,5 +57,11 @@ describe('List', () => {
     expect(moviesList.getElement()).toEqual('Interstellar');
     moviesList.prev();
     expect(moviesList.getElement()).toEqual('Interstellar');
+    moviesList.end();
+    expect(moviesList.getElement()).toEqual('Inception');
+    moviesList.front();
+    expect(moviesList.getElement()).toEqual('Interstellar');
+    moviesList.moveTo(1);
+    expect(moviesList.getElement()).toEqual('Shutter Island');
   });
 });
