@@ -56,3 +56,22 @@
   people.empty() // false
 
 ```
+
+
+# LinkedList
+
+```js
+
+  import { LinkedList } from "data_structures_and_algorithms_javascript"
+
+  const cities = new LinkedList();
+  cities.insert('Tehran', 'head');
+  cities.insert('LA', 'Tehran');
+  cities.insert('London', 'LA');
+  cities.insert('Amsterdam', 'London');
+  cities.find('Amsterdam') // Node {element: "Amsterdam", nextElement: null}
+  cities.remove('Amsterdam');
+  cities.find('Amsterdam') // null
+  cities.findPrevious('Amsterdam') // Node {element: "London", nextElement: null}
+
+```
