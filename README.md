@@ -40,3 +40,22 @@ import { List } from "data_structures_and_algorithms_javascript"
   tasksStack.length() // 2
 
 ```
+
+
+
+# Queue
+
+```js
+
+  const people = new Queue(); // []
+  people.enqueue('Person 1'); // ['Person 1']
+  people.enqueue('Person 2'); // ['Person 1', 'Person 2']
+  people.enqueue('Person 3'); // ['Person 1', 'Person 2', 'Person 3']
+  people.length() // 3
+  const person1 = people.dequeue(); // 'Person 1'
+  people.enqueue(person1);  // ['Person 2', 'Person 3', 'Person 1']
+  people.back() // 'Person 1'
+  people.front() // 'Person 2'
+  people.empty() // false
+
+```
