@@ -29,7 +29,6 @@ import { List } from "data_structures_and_algorithms_javascript"
 
 # Stack
 
-
 ```js
 
   const tasksStack = new Stack(); // []
@@ -39,5 +38,5 @@ import { List } from "data_structures_and_algorithms_javascript"
   const task1 = tasksStack.pop(); // task = 'To Do 3' & tasksStack = ['To Do 1','To Do 2']
   const task2 = tasksStack.peak(); // task = 'To Do 2' & tasksStack = ['To Do 1','To Do 2']
   tasksStack.length() // 2
-  
+
 ```
