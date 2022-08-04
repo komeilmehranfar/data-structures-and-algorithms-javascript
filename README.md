@@ -1,4 +1,9 @@
-# List
+## Introduction
+
+A useful library to learn and use data structure and algorithm in JS & TS 
+
+
+## List
 
 ```js
 
@@ -20,7 +25,7 @@
 ```
 
 
-# Stack
+## Stack
 
 ```js
 
@@ -38,7 +43,7 @@
 
 
 
-# Queue
+## Queue
 
 ```js
 
@@ -58,7 +63,7 @@
 ```
 
 
-# LinkedList
+## LinkedList
 
 ```js
 
@@ -73,5 +78,23 @@
   cities.remove('Amsterdam');
   cities.find('Amsterdam') // null
   cities.findPrevious('Amsterdam') // Node {element: "London", nextElement: null}
+
+```
+
+
+## Dictionary
+
+```js
+
+  import { Dictionary } from "data_structures_and_algorithms_javascript"
+
+  const peopleHeights = new Dictionary(); // {}
+  peopleHeights.add('Komeil', 184); // {Komeil: 184}
+  peopleHeights.add('Tara', 165); // {Tara: 165}
+  peopleHeights.find('Komeil'); // 184
+  peopleHeights.length(); // 2
+  peopleHeights.remove('Komeil'); 
+  peopleHeights.find('Komeil') // undefined
+  peopleHeights.clear(); // {}
 
 ```
