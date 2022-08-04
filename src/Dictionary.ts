@@ -1,6 +1,8 @@
+type DictionaryIndex = string | number;
+
 export class Dictionary {
   private dataStore: {
-    [index: string | number]: any;
+    [key in DictionaryIndex]: any;
   };
   find: (key: string | number) => any;
   remove: (key: string | number) => void;
